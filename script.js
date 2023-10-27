@@ -70,7 +70,6 @@ function add(){
     })
 
     divv.querySelector(".compl").addEventListener("click",()=>{
-        console.log("Hello i am complete")
         inputTask.style.textDecoration="line-through"
          para.innerHTML=""
     })

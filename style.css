@@ -11,7 +11,7 @@ body{
     height: 100vh;
     /* margin-top: 2rem; */
     gap: 1rem;
-    background-image: url(./IMAGE/bgc3image.jpeg);
+    background-image: url(./IMAGE/bgc1.jpeg);
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -40,7 +40,7 @@ input{
 }
 .ans{
     display: flex;
-    flex-direction: column;
+    flex-direction:column-reverse;
     gap: 2rem;
 }
 /*  css to create div logo button */
