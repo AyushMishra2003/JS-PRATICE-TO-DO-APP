@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    /* margin-top: 2rem; */
+    gap: 1rem;
+    background-image: url(./IMAGE/bgc3image.jpeg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.header{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:darkmagenta;
+    color: white;
+    font-size: 1rem;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+input{
+    padding: 0.3rem 2rem;
+}
+.addtask{
+    padding: 0.4rem 0.3rem;
+    background-color: darkmagenta;
+    border: none;
+}
+.ans{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+/*  css to create div logo button */
+.del{
+    font-size: 1.5rem;
+    color:red;
+}
+.compl{
+    background-color:  green;
+    font-size: 1.5rem;
+}
+.edit{
+    color: green;
+    font-size: 1.5rem;
+}
+.list{
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+}
+.input-field{
+    padding: 0.5rem 2rem;
+}
